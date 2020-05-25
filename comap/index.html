@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="papaparse.min.js"></script>
+<script src="census.js"></script>
+<script src="covid.js"></script>
+<script src="analyzer.js"></script>
+<script>
+function ready() {
+	if (census.ready && covid.ready) {
+		analyzer.analyze();
+	}
+}
+census = new Census(ready);
+covid = new Covid(ready);
+analyzer = new Analyzer(census, covid);
+</script>
+</head>
+<body>
+<object type="image/svg+xml" id="map" data="map.svg"></object>
+<div id="status" style="position: fixed; top: 0; left: 600px; font-family: sans-serif"></div>
+</body>
+</html>
