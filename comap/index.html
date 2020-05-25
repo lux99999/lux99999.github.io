@@ -3,30 +3,97 @@
 <head>
 <script src="papaparse.min.js"></script>
 <script src="census.js"></script>
-<script src="covid.js"></script>
+<script src="cases.js"></script>
+<script src="deaths.js"></script>
+<script src="detail.js"></script>
+<script src="colors.js"></script>
 <script src="when.js"></script>
-<script src="analyzer.js"></script>
+<script src="caserate.js"></script>
+<script src="deathrate.js"></script>
+<script src="deathtotal.js"></script>
+<script src="population.js"></script>
 <script>
 
-function update() {
-	if (census.ready && covid.ready) {
-		var cutoff = new When().update();
-		analyzer.analyze(cutoff);
+function mode(which) {
+	switch (which) {
+	case 'caserate':
+		data = cases;
+		analysis = caserate;
+		break;
+	case 'deathrate':
+		data = deaths;
+		analysis = deathrate;
+		break;
+	case 'deathtotal':
+		data = deaths;
+		analysis = deathtotal;
+		break;
+	case 'population':
+		data = census;
+		analysis = population;
+		break;
+	}
+	update();
+}
+
+function update(mapLoaded) {
+	if (mapLoaded) {
+		mapReady = true;
+	}
+	if (mapReady && census.ready && data.ready) {
+		detail.prepare(census);
+		analysis.refresh(when.update());
 	}
 }
 
 census = new Census(update);
-covid = new Covid(update);
-analyzer = new Analyzer(census, covid);
+cases = new Cases(update);
+deaths = new Deaths(update);
+
+detail = new Detail();
+colors = new Colors();
+when = new When();
+mapReady = false;
+
+caserate = new CaseRate(census, cases, detail, colors);
+deathrate = new DeathRate(census, deaths, detail, colors);
+deathtotal = new DeathTotal(census, deaths, detail, colors);
+population = new Population(census, detail, colors);
+
+data = cases;
+analysis = caserate;
 
 </script>
 </head>
 <body>
-<object type="image/svg+xml" id="map" data="map.svg"></object>
-<div id="status" style="position: fixed; top: 0; left: 600px; font-family: sans-serif"></div>
+
+<object onload="update(true);" type="image/svg+xml" id="map" data="map.svg"></object>
+
+<div id="detail" style="position: fixed; top: 0; left: 600px; font-family: sans-serif"></div>
+
 <div id="date" style="position: fixed; bottom: 0; left: 0; font-family: sans-serif"></div>
 <div style="position: fixed; bottom: 0; left: 100px; right: 0;">
 <input type="range" id="when" min="1" max="100" value="100" style="width: 100%" oninput="update();">
 </div>
+
+<div style="position: fixed; right: 0; bottom: 200px; font-family: sans-serif">
+
+<input type="radio" id="caserate" name="mode" value="caserate" checked onclick="mode('caserate');">
+<label for="cases"><a target="_casesdata" href="https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_US.csv">Daily Cases</a></label>
+<br>
+
+<input type="radio" id="deaths" name="mode" value="deathrate" onclick="mode('deathrate');">
+<label for="deaths"><a target="_deathsdata" href="https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_deaths_US.csv">Daily Deaths</a></label>
+<br>
+
+<input type="radio" id="deaths" name="mode" value="deathtotal" onclick="mode('deathtotal');">
+<label for="deaths"><a target="_deathsdata" href="https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_deaths_US.csv">Total Deaths</a></label>
+<br>
+
+<input type="radio" id="population" name="mode" value="population" onclick="mode('population');">
+<label for="population"><a target="_populationdata" href="https://www2.census.gov/programs-surveys/popest/datasets/2010-2019/counties/totals/co-est2019-alldata.csv">Population</a></label>
+
+</div>
+
 </body>
 </html>

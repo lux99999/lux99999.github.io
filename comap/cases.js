@@ -1,5 +1,5 @@
 
-class CovidCounty {
+class CasesCounty {
 
 	constructor(data) {
 		var that = this;
@@ -39,23 +39,31 @@ class CovidCounty {
 			i++;
 		}
 
-		var avg = Math.trunc(total / count);
+		var avg = Math.round(total / count);
 		if (avg <= 0) {
 			avg = 0;
 		}
 
 		return avg;
 	}
+
+	total(cutoff) {
+		var i = 0;
+		while (i < (this.cases.length - 1) && this.cases[i][0] > cutoff) {
+			i++;
+		}
+		return this.cases[i][1];
+	}
 }
 
-class CovidCounties {
+class CasesCounties {
 	constructor() {
 		this.counties = new Map();
 	}
 
 	addCounty(data) {
 		try {
-			var county = new CovidCounty(data);
+			var county = new CasesCounty(data);
 			this.counties.set(county.fips, county);
 		} catch (error) {
 			//console.log(error);
@@ -63,10 +71,10 @@ class CovidCounties {
 	}
 }
 
-class Covid {
+class Cases {
 	constructor(cb) {
 		this.file = "time_series_covid19_confirmed_US.csv";
-		this.counties = new CovidCounties();
+		this.counties = new CasesCounties();
 		this.ready = false;
 		this.cb = cb;
 		var that = this;

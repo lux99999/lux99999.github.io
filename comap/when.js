@@ -10,7 +10,6 @@ class When {
 		date.setTime(cutoff);
 		var dateStr = date.getFullYear() + "-" + (date.getMonth() + 1).toString() + "-" + date.getDate();
 		document.getElementById("date").innerHTML = dateStr;
-		document.getElementById("status").innerHTML = "";
 		return cutoff;
 	}
 }
