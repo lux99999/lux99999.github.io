@@ -1,5 +1,6 @@
 
 class CovidCounty {
+
 	constructor(data) {
 		var that = this;
 		this.fips = data["FIPS"].toString().padStart(5, "0");
@@ -14,21 +15,35 @@ class CovidCounty {
 		this.cases = entries.sort((a, b) => b[0] - a[0]);
 	}
 
-	avg(max) {
+	avg(cutoff, max) {
+
+		var i = 0;
+		while (i < (this.cases.length - 1) && this.cases[i][0] > cutoff) {
+			i++;
+		}
+
+		max += i;
 		if (max > this.cases.length - 1) {
 			max = this.cases.length - 1;
 		}
+
 		var total = 0;
 		var count = 0;
-		for (var i = 0; i < max; i++) {
+		while (i < max) {
 			var j = i + 1;
 			var cur = this.cases[i][1];
 			var next = this.cases[j][1];
 			var diff = cur - next;
 			total += diff;
 			count += 1;
+			i++;
 		}
+
 		var avg = Math.trunc(total / count);
+		if (avg <= 0) {
+			avg = 0;
+		}
+
 		return avg;
 	}
 }
