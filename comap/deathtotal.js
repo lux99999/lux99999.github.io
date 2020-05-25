@@ -17,7 +17,7 @@ class DeathTotal {
 				var deaths = deaths.total(cutoff);
 				var deathsPerMillion = Math.trunc((1000000 * deaths) / population);
 				var deathsPercent = Math.trunc((100000 * deaths) / population) / 1000;
-				var detail = census.name + "<br />Population: " + population.toLocaleString() + "<br />Deaths: " + deaths.toLocaleString() + "<br />Percent dead: " + deathsPercent.toLocaleString() + "%";
+				var detail = census.name + "<br />Population: " + population.toLocaleString() + "<br />Deaths: " + deaths.toLocaleString() + "<br />Percent: " + deathsPercent.toLocaleString() + "%";
 				var logDeaths = Math.log10(1 + deathsPerMillion);
 				var logPop = Math.log10(1 + population);
 				var h = 120 + Math.trunc((logPop - 3) * 120 / 4);
