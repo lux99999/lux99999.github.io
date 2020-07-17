@@ -21,8 +21,10 @@ class DeathTotal {
 				var logDeaths = Math.log10(1 + deathsPerMillion);
 				var logPop = Math.log10(1 + population);
 				var h = 120 + Math.trunc((logPop - 3) * 120 / 4);
-				var s = Math.trunc(30 + (logDeaths * 70 / 4));
-				var l = 80 - Math.trunc(logDeaths * 60 / 4);
+				var s = Math.trunc(30 + (logDeaths * 70 / 4));       // log scale
+				var l = 80 - Math.trunc(logDeaths * 60 / 4);         // log scale
+				s = Math.trunc(40 + (deathsPercent * 60 / 0.35)); // linear scale
+				l = Math.trunc(80 - (deathsPercent * 60 / 0.35)); // linear scale
 				if (population == 1) {
 					detail = census.name;
 					l = 100;

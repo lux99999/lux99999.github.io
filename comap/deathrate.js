@@ -20,8 +20,13 @@ class DeathRate {
 				var logDeaths = Math.log10(1 + deathsPerMillion);
 				var logPop = Math.log10(1 + population);
 				var h = 120 + Math.trunc((logPop - 3) * 120 / 4);
-				var s = Math.trunc(30 + (logDeaths * 70 / 2));
-				var l = 80 - Math.trunc(logDeaths * 60 / 2);
+				var s = Math.trunc(30 + (logDeaths * 70 / 2));      // log scale
+				var l = 80 - Math.trunc(logDeaths * 60 / 2);        // log scale
+				if (deaths < 5 && deathsPerMillion > 10) {
+					deathsPerMillion = 10; // noise filter for sparse populations
+				}
+				s = Math.trunc(40 + (deathsPerMillion * 60 / 25)); // linear scale
+				l = Math.trunc(80 - (deathsPerMillion * 60 / 25)); // linear scale
 				if (population == 1) {
 					detail = census.name;
 					l = 100;
