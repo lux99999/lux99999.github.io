@@ -2,7 +2,7 @@
 class CensusCounty {
 	constructor(data) {
 		this.fips = data["STATE"].toString().padStart(2, "0") + data["COUNTY"].toString().padStart(3, "0");
-		this.name = data["CTYNAME"];
+		this.name = data["CTYNAME"] + " " + data["STNAME"];
 		this.population = data["POPESTIMATE2019"];
 	}
 }

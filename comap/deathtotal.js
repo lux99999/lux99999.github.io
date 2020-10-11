@@ -30,6 +30,7 @@ class DeathTotal {
 					l = 100;
 				}
 				//console.log(logPop, logDeaths, census.name);
+				//console.log(census.name + "," + population + "," + deathsPerMillion);
 				that.colors.set(fips, h, s, l);
 				that.detail.set(fips, detail);
 			}
