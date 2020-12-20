@@ -1,5 +1,6 @@
 
 class When {
+
 	update() {
 		var oldest = Date.parse("1/23/20");
 		var newest = Date.now();
@@ -12,5 +13,32 @@ class When {
 		document.getElementById("date").innerHTML = dateStr;
 		return cutoff;
 	}
+
+	reset() {
+		document.getElementById("when").value = 1;
+	}
+
+	advance() {
+		var when = document.getElementById("when").value;
+		when = parseInt(when) + 2;
+		if (when > 1000) {
+			this.complete();
+		} else {
+			document.getElementById("when").value = when;
+			this.analysis.refresh(this.update());
+		}
+	}
+
+	complete() {
+		clearInterval(this.interval);
+	}
+
+	animate(analysis) {
+		var that = this;
+		that.reset();
+		this.analysis = analysis;
+		this.interval = setInterval(function() {that.advance();}, 10);
+	}
+
 }
 

@@ -72,8 +72,13 @@ analysis = caserate;
 <div id="detail" style="position: fixed; top: 0; left: 600px; font-family: sans-serif"></div>
 
 <div id="date" style="position: fixed; bottom: 0; left: 0; font-family: sans-serif"></div>
-<div style="position: fixed; bottom: 0; left: 100px; right: 0;">
+<div style="position: fixed; bottom: 0; left: 100px; right: 100px;">
 <input type="range" id="when" min="1" max="1000" value="1000" style="width: 100%" oninput="update();">
+</div>
+<div id="animate" style="position: fixed; bottom: 0; right: 0;">
+<input type="button" id="animate" value="Animate" onclick="when.animate(analysis);">
+</div>
+
 </div>
 
 <div style="position: fixed; right: 0; bottom: 200px; font-family: sans-serif">
