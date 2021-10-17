@@ -16,6 +16,9 @@ class Route {
 class Routes {
 
     addRoute(data) {
+        if (data["route_long_name"] == null) {
+            return;
+        }
         var route = new Route(data);
         var replace = true;
         if (this.routes.has(route.name)) {
@@ -41,6 +44,7 @@ class Routes {
 			download: true,
 			dynamicTyping: true,
 			complete: function(results) {
+                console.log(results);
 				results.data.forEach(data => that.addRoute(data));
 				that.ready = true;
 				that.cb();

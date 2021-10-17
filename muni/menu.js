@@ -4,7 +4,10 @@ class Menu {
     populate(routes) {
         this.clear();
         var menu = document.getElementById('menu');
-        routes.routes.forEach(function(route) {
+        var keys = [...routes.routes.keys()];
+        var sorted = keys.sort();
+        sorted.forEach(function(key) {
+            var route = routes.routes.get(key);
             var a = document.createElement("a");
             a.innerHTML = route.name;
             a.target = route.name;
