@@ -1,9 +1,9 @@
 public class Circle {
     
-    public static int count;   // Static attribute. The Circle class itself has the only copy. 
+    public static int count;                        // Static attribute. The Circle class itself has the only copy. 
     
-    public int width;          // Normal attribute. Each instance has its own copy.
-    public String color;       // Normal attribute. Each instance has its own copy.
+    public int width;                               // Normal attribute. Each instance has its own copy.
+    public String color;                            // Normal attribute. Each instance has its own copy.
     
     public Circle(int width, String color) {        // Constructor. Some languages actually call this "constructor" but in Java, you just define a method whose name matches the class's name.
         this.width = width;                         // "this" means the instance that is being constructed.
