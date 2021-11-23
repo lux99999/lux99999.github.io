@@ -15,7 +15,7 @@ public class Circle {
         System.out.println("I am a circle, " + this.width + " and " + this.color + "!");
     }                                               // "this" means the instance you called it with.
     
-    public static void printCount() {               // Static method. You call it using the Circle class itself, and it can only refer to static fields.
+    public static void printCount() {               // Static method. You call it using the Circle class itself, and it can only use static fields because no instance is involved.
         System.out.println("There are " + Circle.count + " circles.");
     }
     
