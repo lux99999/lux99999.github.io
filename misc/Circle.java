@@ -11,11 +11,11 @@ public class Circle {
         Circle.count ++;                            // ...and to update the overall count of circles.
     }
     
-    public void print() {                           // Normal method. You call this using an instance.
+    public void print() {                           // Normal method. You call it using an instance.
         System.out.println("I am a circle, " + this.width + " and " + this.color + "!");
-    }
+    }                                               // "this" means the instance you called it with.
     
-    public static void printCount() {               // Static method. You call this using the Circle class itself, and it can only refer to static fields.
+    public static void printCount() {               // Static method. You call it using the Circle class itself, and it can only refer to static fields.
         System.out.println("There are " + Circle.count + " circles.");
     }
     

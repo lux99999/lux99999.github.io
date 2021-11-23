@@ -3,6 +3,8 @@ public class Main {
 
     public static void main(String args[]) {
 
+        Circle.printCount();                        // Call static method to print the number of Circle instances
+
         Circle circle1 = new Circle(10, "blue");    // Create three instances of Circle
         Circle circle2 = new Circle(20, "red");
         Circle circle3 = new Circle(30, "green");
