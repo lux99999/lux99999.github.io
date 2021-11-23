@@ -1,0 +1,7 @@
+There are 3 circles.
+I am a circle, 10 and blue!
+I am a circle, 20 and red!
+I am a circle, 30 and green!
+There are 5 circles.
+I am a circle, 40 and purple!
+I am a circle, 50 and yellow!
