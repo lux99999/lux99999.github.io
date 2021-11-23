@@ -8,7 +8,7 @@ public class Circle {
     public String color;                            // Normal field. Each instance has its own copy.
     
     public Circle(int width, String color) {        // Constructor. Some languages actually call this "constructor" but in Java, you just define a method whose name matches the class's name.
-        this.width = width;                         // "this" means a new instance that is getting created.
+        this.width = width;                         // "this" means the new instance that is getting created.
         this.color = color;                         // The constructor's job is to install values into the new instance...
         Circle.count ++;                            // ...and to keep track of how many instances were created.
     }
