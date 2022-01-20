@@ -1,60 +1,119 @@
-route_id,agency_id,route_short_name,route_long_name,route_desc,route_type,route_url,route_color,route_text_color
-17274,SFMTA,1,CALIFORNIA, ,3,https://SFMTA.com/1              , , 
-17279,SFMTA,5,FULTON, ,3,https://SFMTA.com/5              , , 
-17280,SFMTA,5R,FULTON RAPID, ,3,https://SFMTA.com/5R             , , 
-17282,SFMTA,7,HAIGHT-NORIEGA, ,3,https://SFMTA.com/7              , , 
-17284,SFMTA,8,BAYSHORE, ,3,https://SFMTA.com/8              , , 
-17287,SFMTA,9,SAN BRUNO, ,3,https://SFMTA.com/9              , , 
-17288,SFMTA,9R,SAN BRUNO RAPID, ,3,https://SFMTA.com/9R             , , 
-17290,SFMTA,12,FOLSOM-PACIFIC, ,3,https://SFMTA.com/12             , , 
-17291,SFMTA,14,MISSION, ,3,https://SFMTA.com/14             , , 
-17292,SFMTA,14R,MISSION RAPID, ,3,https://SFMTA.com/14R            , , 
-17294,SFMTA,15,BAYVIEW HUNTERS POINT EXPRESS, ,3,https://SFMTA.com/15             , , 
-17295,SFMTA,18,46TH AVENUE, ,3,https://SFMTA.com/18             , , 
-17296,SFMTA,19,POLK, ,3,https://SFMTA.com/19             , , 
-17298,SFMTA,22,FILLMORE, ,3,https://SFMTA.com/22             , , 
-17299,SFMTA,23,MONTEREY, ,3,https://SFMTA.com/23             , , 
-17300,SFMTA,24,DIVISADERO, ,3,https://SFMTA.com/24             , , 
-17301,SFMTA,25,TREASURE ISLAND, ,3,https://SFMTA.com/25             , , 
-17302,SFMTA,27,BRYANT, ,3,https://SFMTA.com/27             , , 
-17303,SFMTA,28,19TH AVENUE, ,3,https://SFMTA.com/28             , , 
-17305,SFMTA,29,SUNSET, ,3,https://SFMTA.com/29             , , 
-17306,SFMTA,30,STOCKTON, ,3,https://SFMTA.com/30             , , 
-17308,SFMTA,31,BALBOA, ,3,https://SFMTA.com/31             , , 
-17311,SFMTA,33,ASHBURY-18TH ST, ,3,https://SFMTA.com/33             , , 
-17313,SFMTA,35,EUREKA, ,3,https://SFMTA.com/35             , , 
-17314,SFMTA,36,TERESITA, ,3,https://SFMTA.com/36             , , 
-17315,SFMTA,37,CORBETT, ,3,https://SFMTA.com/37             , , 
-17316,SFMTA,38,GEARY, ,3,https://SFMTA.com/38             , , 
-17319,SFMTA,38R,GEARY RAPID, ,3,https://SFMTA.com/38R            , , 
-17320,SFMTA,39,COIT, ,3,https://SFMTA.com/39             , , 
-17322,SFMTA,43,MASONIC, ,3,https://SFMTA.com/43             , , 
-17323,SFMTA,44,O'SHAUGHNESSY, ,3,https://SFMTA.com/44             , , 
-17324,SFMTA,45,UNION-STOCKTON, ,3,https://SFMTA.com/45             , , 
-17326,SFMTA,48,QUINTARA-24TH STREET, ,3,https://SFMTA.com/48             , , 
-17327,SFMTA,49,VAN NESS-MISSION, ,3,https://SFMTA.com/49             , , 
-17328,SFMTA,52,EXCELSIOR, ,3,https://SFMTA.com/52             , , 
-17329,SFMTA,54,FELTON, ,3,https://SFMTA.com/54             , , 
-17330,SFMTA,55,DOGPATCH, ,3,https://SFMTA.com/55             , , 
-17331,SFMTA,56,RUTLAND, ,3,https://SFMTA.com/56             , , 
-17332,SFMTA,57,PARKMERCED, ,3,https://SFMTA.com/57             , , 
-17333,SFMTA,58,LAKE MERCED, ,3,https://SFMTA.com/58             , , 
-17520,SFMTA,PM,POWELL-MASON CABLE CAR, ,5,https://SFMTA.com/PM             , , 
-17335,SFMTA,PH,POWELL-HYDE CABLE CAR, ,5,https://SFMTA.com/PH             , , 
-17336,SFMTA,C,CALIFORNIA STREET CABLE CAR, ,5,https://SFMTA.com/C              , , 
-17337,SFMTA,66,QUINTARA, ,3,https://SFMTA.com/66             , , 
-17338,SFMTA,67,BERNAL HEIGHTS, ,3,https://SFMTA.com/67             , , 
-17346,SFMTA,90,SAN BRUNO OWL, ,3,https://SFMTA.com/90             , , 
-17347,SFMTA,91,3RD-19TH AVE OWL, ,3,https://SFMTA.com/91             , , 
-17349,SFMTA,714,BART EARLY BIRD, ,3,https://SFMTA.com/714            , , 
-17352,SFMTA,F,MARKET & WHARVES, ,0,https://SFMTA.com/F              , , 
-17362,SFMTA,J,CHURCH, ,0,https://SFMTA.com/J              , , 
-17365,SFMTA,KBUS,INGLESIDE BUS, ,3,https://SFMTA.com/KBUS           , , 
-17366,SFMTA,KT,INGLESIDE-THIRD, ,0,https://SFMTA.com/KT             , , 
-17367,SFMTA,L-OWL,OWL TARAVAL, ,3,https://SFMTA.com/L-OWL          , , 
-17368,SFMTA,LBUS,TARAVAL BUS, ,3,https://SFMTA.com/LBUS           , , 
-17516,SFMTA,M,OCEAN VIEW, ,0,https://SFMTA.com/M              , , 
-17375,SFMTA,N,JUDAH, ,0,https://SFMTA.com/N              , , 
-17377,SFMTA,N-OWL,OWL JUDAH, ,3,https://SFMTA.com/N-OWL          , , 
-17378,SFMTA,NBUS,JUDAH BUS, ,3,https://SFMTA.com/NBUS           , , 
-17385,SFMTA,TBUS,THIRD BUS SHUTTLE, ,3,https://SFMTA.com/TBUS           , , 
+route_long_name,route_type,route_text_color,route_color,agency_id,route_id,route_url,route_desc,route_short_name
+COIT,3,,,SFMTA,17573,https://SFMTA.com/39,,39
+GEARY RAPID,3,,,SFMTA,17572,https://SFMTA.com/38R,,38R
+MASONIC,3,,,SFMTA,17575,https://SFMTA.com/43,,43
+UNION-STOCKTON,3,,,SFMTA,17577,https://SFMTA.com/45,,45
+O'SHAUGHNESSY,3,,,SFMTA,17576,https://SFMTA.com/44,,44
+QUINTARA-24TH STREET,3,,,SFMTA,17579,https://SFMTA.com/48,,48
+CALIFORNIA,3,,,SFMTA,17527,https://SFMTA.com/1,,1
+POWELL-MASON CABLE CAR,5,,,SFMTA,17520,https://SFMTA.com/PM,,PM
+CALIFORNIA,3,,,SFMTA,17274,https://SFMTA.com/1,,1
+FULTON,3,,,SFMTA,17279,https://SFMTA.com/5,,5
+BALBOA,3,,,SFMTA,17561,https://SFMTA.com/31,,31
+EUREKA,3,,,SFMTA,17566,https://SFMTA.com/35,,35
+TERESITA,3,,,SFMTA,17567,https://SFMTA.com/36,,36
+ASHBURY-18TH ST,3,,,SFMTA,17564,https://SFMTA.com/33,,33
+CORBETT,3,,,SFMTA,17568,https://SFMTA.com/37,,37
+GEARY,3,,,SFMTA,17569,https://SFMTA.com/38,,38
+OWL TARAVAL,3,,,SFMTA,17611,https://SFMTA.com/L-OWL,,L-OWL
+INGLESIDE BUS,3,,,SFMTA,17365,https://SFMTA.com/KBUS,,KBUS
+INGLESIDE-THIRD,0,,,SFMTA,17366,https://SFMTA.com/KT,,KT
+OWL TARAVAL,3,,,SFMTA,17367,https://SFMTA.com/L-OWL,,L-OWL
+CHURCH,0,,,SFMTA,17362,https://SFMTA.com/J,,J
+TARAVAL BUS,3,,,SFMTA,17368,https://SFMTA.com/LBUS,,LBUS
+STOCKTON,3,,,SFMTA,17559,https://SFMTA.com/30,,30
+SUNSET,3,,,SFMTA,17558,https://SFMTA.com/29,,29
+19TH AVENUE,3,,,SFMTA,17556,https://SFMTA.com/28,,28
+BRYANT,3,,,SFMTA,17555,https://SFMTA.com/27,,27
+TREASURE ISLAND,3,,,SFMTA,17554,https://SFMTA.com/25,,25
+DIVISADERO,3,,,SFMTA,17553,https://SFMTA.com/24,,24
+MONTEREY,3,,,SFMTA,17552,https://SFMTA.com/23,,23
+FILLMORE,3,,,SFMTA,17551,https://SFMTA.com/22,,22
+THIRD BUS SHUTTLE,3,,,SFMTA,17385,https://SFMTA.com/TBUS,,TBUS
+ASHBURY-18TH ST,3,,,SFMTA,17311,https://SFMTA.com/33,,33
+EUREKA,3,,,SFMTA,17313,https://SFMTA.com/35,,35
+CORBETT,3,,,SFMTA,17315,https://SFMTA.com/37,,37
+TERESITA,3,,,SFMTA,17314,https://SFMTA.com/36,,36
+GEARY,3,,,SFMTA,17316,https://SFMTA.com/38,,38
+GEARY RAPID,3,,,SFMTA,17319,https://SFMTA.com/38R,,38R
+JUDAH BUS,3,,,SFMTA,17620,https://SFMTA.com/NBUS,,NBUS
+46TH AVENUE,3,,,SFMTA,17548,https://SFMTA.com/18,,18
+POLK,3,,,SFMTA,17549,https://SFMTA.com/19,,19
+THIRD BUS SHUTTLE,3,,,SFMTA,17627,https://SFMTA.com/TBUS,,TBUS
+SAN BRUNO,3,,,SFMTA,17540,https://SFMTA.com/9,,9
+SAN BRUNO RAPID,3,,,SFMTA,17541,https://SFMTA.com/9R,,9R
+FOLSOM-PACIFIC,3,,,SFMTA,17543,https://SFMTA.com/12,,12
+MISSION,3,,,SFMTA,17544,https://SFMTA.com/14,,14
+MISSION RAPID,3,,,SFMTA,17545,https://SFMTA.com/14R,,14R
+BAYVIEW HUNTERS POINT EXPRESS,3,,,SFMTA,17547,https://SFMTA.com/15,,15
+BRYANT,3,,,SFMTA,17302,https://SFMTA.com/27,,27
+19TH AVENUE,3,,,SFMTA,17303,https://SFMTA.com/28,,28
+DIVISADERO,3,,,SFMTA,17300,https://SFMTA.com/24,,24
+TREASURE ISLAND,3,,,SFMTA,17301,https://SFMTA.com/25,,25
+STOCKTON,3,,,SFMTA,17306,https://SFMTA.com/30,,30
+SUNSET,3,,,SFMTA,17305,https://SFMTA.com/29,,29
+BALBOA,3,,,SFMTA,17308,https://SFMTA.com/31,,31
+HAIGHT-NORIEGA,3,,,SFMTA,17282,https://SFMTA.com/7,,7
+FULTON RAPID,3,,,SFMTA,17280,https://SFMTA.com/5R,,5R
+SAN BRUNO,3,,,SFMTA,17287,https://SFMTA.com/9,,9
+BAYSHORE,3,,,SFMTA,17284,https://SFMTA.com/8,,8
+HAIGHT-NORIEGA,3,,,SFMTA,17535,https://SFMTA.com/7,,7
+BAYSHORE,3,,,SFMTA,17537,https://SFMTA.com/8,,8
+SAN BRUNO RAPID,3,,,SFMTA,17288,https://SFMTA.com/9R,,9R
+FULTON RAPID,3,,,SFMTA,17533,https://SFMTA.com/5R,,5R
+FULTON,3,,,SFMTA,17532,https://SFMTA.com/5,,5
+INGLESIDE-THIRD,0,,,SFMTA,17610,https://SFMTA.com/KT,,KT
+BERNAL HEIGHTS,3,,,SFMTA,17338,https://SFMTA.com/67,,67
+QUINTARA,3,,,SFMTA,17337,https://SFMTA.com/66,,66
+CALIFORNIA STREET CABLE CAR,5,,,SFMTA,17336,https://SFMTA.com/C,,C
+POWELL-HYDE CABLE CAR,5,,,SFMTA,17335,https://SFMTA.com/PH,,PH
+LAKE MERCED,3,,,SFMTA,17333,https://SFMTA.com/58,,58
+PARKMERCED,3,,,SFMTA,17332,https://SFMTA.com/57,,57
+RUTLAND,3,,,SFMTA,17331,https://SFMTA.com/56,,56
+DOGPATCH,3,,,SFMTA,17330,https://SFMTA.com/55,,55
+INGLESIDE BUS,3,,,SFMTA,17609,https://SFMTA.com/KBUS,,KBUS
+CHURCH,0,,,SFMTA,17606,https://SFMTA.com/J,,J
+MARKET & WHARVES,0,,,SFMTA,17604,https://SFMTA.com/F,,F
+BART EARLY BIRD,3,,,SFMTA,17601,https://SFMTA.com/714,,714
+MARKET & WHARVES,0,,,SFMTA,17352,https://SFMTA.com/F,,F
+FILLMORE,3,,,SFMTA,17298,https://SFMTA.com/22,,22
+MONTEREY,3,,,SFMTA,17299,https://SFMTA.com/23,,23
+BAYVIEW HUNTERS POINT EXPRESS,3,,,SFMTA,17294,https://SFMTA.com/15,,15
+46TH AVENUE,3,,,SFMTA,17295,https://SFMTA.com/18,,18
+POLK,3,,,SFMTA,17296,https://SFMTA.com/19,,19
+FOLSOM-PACIFIC,3,,,SFMTA,17290,https://SFMTA.com/12,,12
+MISSION,3,,,SFMTA,17291,https://SFMTA.com/14,,14
+MISSION RAPID,3,,,SFMTA,17292,https://SFMTA.com/14R,,14R
+EXCELSIOR,3,,,SFMTA,17328,https://SFMTA.com/52,,52
+FELTON,3,,,SFMTA,17329,https://SFMTA.com/54,,54
+COIT,3,,,SFMTA,17320,https://SFMTA.com/39,,39
+MASONIC,3,,,SFMTA,17322,https://SFMTA.com/43,,43
+O'SHAUGHNESSY,3,,,SFMTA,17323,https://SFMTA.com/44,,44
+UNION-STOCKTON,3,,,SFMTA,17324,https://SFMTA.com/45,,45
+QUINTARA-24TH STREET,3,,,SFMTA,17326,https://SFMTA.com/48,,48
+VAN NESS-MISSION,3,,,SFMTA,17327,https://SFMTA.com/49,,49
+OWL JUDAH,3,,,SFMTA,17619,https://SFMTA.com/N-OWL,,N-OWL
+BART EARLY BIRD,3,,,SFMTA,17349,https://SFMTA.com/714,,714
+SAN BRUNO OWL,3,,,SFMTA,17346,https://SFMTA.com/90,,90
+3RD-19TH AVE OWL,3,,,SFMTA,17347,https://SFMTA.com/91,,91
+TARAVAL BUS,3,,,SFMTA,17612,https://SFMTA.com/LBUS,,LBUS
+OCEAN VIEW,0,,,SFMTA,17614,https://SFMTA.com/M,,M
+JUDAH,0,,,SFMTA,17617,https://SFMTA.com/N,,N
+OCEAN VIEW,0,,,SFMTA,17516,https://SFMTA.com/M,,M
+BERNAL HEIGHTS,3,,,SFMTA,17591,https://SFMTA.com/67,,67
+QUINTARA,3,,,SFMTA,17590,https://SFMTA.com/66,,66
+SAN BRUNO OWL,3,,,SFMTA,17599,https://SFMTA.com/90,,90
+JUDAH BUS,3,,,SFMTA,17378,https://SFMTA.com/NBUS,,NBUS
+OWL JUDAH,3,,,SFMTA,17377,https://SFMTA.com/N-OWL,,N-OWL
+JUDAH,0,,,SFMTA,17375,https://SFMTA.com/N,,N
+3RD-19TH AVE OWL,3,,,SFMTA,17600,https://SFMTA.com/91,,91
+POWELL-HYDE CABLE CAR,5,,,SFMTA,17588,https://SFMTA.com/PH,,PH
+CALIFORNIA STREET CABLE CAR,5,,,SFMTA,17589,https://SFMTA.com/C,,C
+RUTLAND,3,,,SFMTA,17584,https://SFMTA.com/56,,56
+PARKMERCED,3,,,SFMTA,17585,https://SFMTA.com/57,,57
+LAKE MERCED,3,,,SFMTA,17586,https://SFMTA.com/58,,58
+POWELL-MASON CABLE CAR,5,,,SFMTA,17587,https://SFMTA.com/PM,,PM
+VAN NESS-MISSION,3,,,SFMTA,17580,https://SFMTA.com/49,,49
+EXCELSIOR,3,,,SFMTA,17581,https://SFMTA.com/52,,52
+FELTON,3,,,SFMTA,17582,https://SFMTA.com/54,,54
+DOGPATCH,3,,,SFMTA,17583,https://SFMTA.com/55,,55
