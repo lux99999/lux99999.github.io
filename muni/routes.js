@@ -24,7 +24,7 @@ class Routes {
         if (this.routes.has(route.name)) {
             var old_id = parseInt(this.routes.get(route.name).id);
             var new_id = parseInt(route.id);
-            if (new_id > old_id) {
+            if (new_id < old_id) {
                 replace = false;
             }
         }
