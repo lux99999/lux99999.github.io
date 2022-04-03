@@ -232,12 +232,12 @@ stop_id,stop_code,stop_name,stop_desc,stop_lat,stop_lon,zone_id,stop_url
 3361,13361,19th Ave & Junipero Serra Blvd , ,37.716889,-122.472275, ,https://SFMTA.com/13361
 3362,13362,19th Ave & Junipero Serra Blvd , ,37.71805,-122.47318, ,https://SFMTA.com/13362
 3363,13363,19th Ave & Junipero Serra Blvd , ,37.717323,-122.47297, ,https://SFMTA.com/13363
-3364,13364,19th Ave & Judah St  , ,37.7616,-122.476932, ,https://SFMTA.com/13364
+3364,13364,19th Ave & Judah St  , ,37.76177,-122.476955, ,https://SFMTA.com/13364
 3365,13365,19th Ave & Judah St  , ,37.7614,-122.47711, ,https://SFMTA.com/13365
-3368,13368,19th Ave & Lawton St  , ,37.75786,-122.47654, ,https://SFMTA.com/13368
+3368,13368,19th Ave & Lawton St  , ,37.758076,-122.476633, ,https://SFMTA.com/13368
 3369,13369,19th Ave & Lawton St  , ,37.757889,-122.476782, ,https://SFMTA.com/13369
 3371,13371,19th Ave & Lincoln Way  , ,37.765375,-122.477404, ,https://SFMTA.com/13371
-3374,13374,19th Ave & Noriega St  , ,37.75412,-122.47629, ,https://SFMTA.com/13374
+3374,13374,19th Ave & Noriega St  , ,37.75432,-122.476368, ,https://SFMTA.com/13374
 3375,13375,19th Ave & Noriega St  , ,37.75392,-122.47653, ,https://SFMTA.com/13375
 3376,13376,19th Ave & Randolph St  , ,37.7162,-122.47167, ,https://SFMTA.com/13376
 3379,13379,19th Ave & Ortega St  , ,37.75272,-122.47619, ,https://SFMTA.com/13379
@@ -1084,7 +1084,7 @@ stop_id,stop_code,stop_name,stop_desc,stop_lat,stop_lon,zone_id,stop_url
 4555,14555,Evans Ave & Newhall St, ,37.741949,-122.386408, ,https://SFMTA.com/14555
 4556,14556,Evans Ave & Napoleon St   , ,37.747263,-122.395879, ,https://SFMTA.com/14556
 4557,14557,Evans Ave & Napoleon St   , ,37.747343,-122.396257, ,https://SFMTA.com/14557
-4558,14558,Evans Ave & Newhall St  , ,37.740003,-122.382973, ,https://SFMTA.com/14558
+4558,14558,Evans Ave & USPO , ,37.740003,-122.382973, ,https://SFMTA.com/14558
 4559,14559,Evans Ave & Phelps St   , ,37.742994,-122.388309, ,https://SFMTA.com/14559
 4560,14560,Evans Ave & Phelps St   , ,37.742977,-122.388595, ,https://SFMTA.com/14560
 4561,14561,Evans Ave & Quint St   , ,37.744245,-122.390531, ,https://SFMTA.com/14561
@@ -1600,8 +1600,8 @@ stop_id,stop_code,stop_name,stop_desc,stop_lat,stop_lon,zone_id,stop_url
 5342,15342,Mansell St & Goettingen St   , ,37.720766,-122.404338, ,https://SFMTA.com/15342
 5343,15343,Mansell St & Hamilton St   , ,37.720098,-122.406916, ,https://SFMTA.com/15343
 5344,15344,Mansell St & Hamilton St   , ,37.719892,-122.407088, ,https://SFMTA.com/15344
-5347,15347,Mansell St & John F Shelley Dr, ,37.718897,-122.418804, ,https://SFMTA.com/15347
-5348,15348,Mansell St & John F Shelley Dr, ,37.718718,-122.418633, ,https://SFMTA.com/15348
+5347,15347,Mansell St & John F Shelley Dr, ,37.718763,-122.4183, ,https://SFMTA.com/15347
+5348,15348,Mansell St & John F Shelley Dr, ,37.71862,-122.418255, ,https://SFMTA.com/15348
 5349,15349,Mansell St & San Bruno Ave   , ,37.721443,-122.401154, ,https://SFMTA.com/15349
 5350,15350,Mansell St & San Bruno Ave   , ,37.721541,-122.401394, ,https://SFMTA.com/15350
 5351,15351,Mansell St & Somerset St   , ,37.720418,-122.405094, ,https://SFMTA.com/15351
@@ -1708,7 +1708,7 @@ stop_id,stop_code,stop_name,stop_desc,stop_lat,stop_lon,zone_id,stop_url
 5490,15490,Newcomb Ave & Newhall St   , ,37.736304,-122.391522, ,https://SFMTA.com/15490
 5491,15491,Newhall St & Oakdale Ave   , ,37.735796,-122.392175, ,https://SFMTA.com/15491
 5500,15500,Middle Point Rd & Innes Ave  , ,37.734174,-122.379541, ,https://SFMTA.com/15500
-5501,15501,Middle Point Rd & West Point Rd, ,37.737011,-122.379321, ,https://SFMTA.com/15501
+5501,15501,Middle Point Rd & Acacia Ave, ,37.737011,-122.379321, ,https://SFMTA.com/15501
 5503,15503,Middle Point Rd & West Point Rd, ,37.735164,-122.379323, ,https://SFMTA.com/15503
 5504,15504,Middle Point Rd & West Point Rd, ,37.73502,-122.37947, ,https://SFMTA.com/15504
 5505,15505,Mendell St & Cargo Way   , ,37.7437,-122.38317, ,https://SFMTA.com/15505
@@ -2443,7 +2443,6 @@ stop_id,stop_code,stop_name,stop_desc,stop_lat,stop_lon,zone_id,stop_url
 6470,16470,South Hill Blvd & Prague St   , ,37.712153,-122.432183, ,https://SFMTA.com/16470
 6471,16471,South Hill Blvd & Rolph St   , ,37.711234,-122.431771, ,https://SFMTA.com/16471
 6472,16472,South Hill Blvd & Rolph St   , ,37.711698,-122.432103, ,https://SFMTA.com/16472
-6473,16473,South Van Ness Ave & Mission St, ,37.773316,-122.418622, ,https://SFMTA.com/16473
 6475,16475,Spear St & Market St   , ,37.793598,-122.395479, ,https://SFMTA.com/16475
 6478,16478,Stanyan St & Frederick St  , ,37.766449,-122.452914, ,https://SFMTA.com/16478
 6479,16479,Stanyan St & Fulton St  , ,37.774604,-122.454714, ,https://SFMTA.com/16479
@@ -2669,28 +2668,11 @@ stop_id,stop_code,stop_name,stop_desc,stop_lat,stop_lon,zone_id,stop_url
 6793,16793,University St & Woolsey St  , ,37.72273,-122.41253, ,https://SFMTA.com/16793
 6796,16796,Upper Ter & Buena Vista Ave West, ,37.76582,-122.4428, ,https://SFMTA.com/16796
 6797,16797,Upper Ter & Masonic Ave   , ,37.76545,-122.44338, ,https://SFMTA.com/16797
-6798,16798,Van Ness Ave & Broadway  , ,37.79608,-122.423331, ,https://SFMTA.com/16798
 6800,16800,Van Ness Ave & Chestnut St  , ,37.80258,-122.42464, ,https://SFMTA.com/16800
 6801,16801,Van Ness Ave & Chestnut St  , ,37.802431,-122.424905, ,https://SFMTA.com/16801
-6803,16803,Van Ness Ave & Clay St  , ,37.79245,-122.4226, ,https://SFMTA.com/16803
-6804,16804,Van Ness Ave & Eddy St  , ,37.782854,-122.420785, ,https://SFMTA.com/16804
-6805,16805,Van Ness Ave & Eddy St  , ,37.7825,-122.42089, ,https://SFMTA.com/16805
 6806,16806,Van Ness Ave & Bay St, ,37.804287,-122.424996, ,https://SFMTA.com/16806
-6813,16813,Van Ness Ave & Jackson St  , ,37.794177,-122.423005, ,https://SFMTA.com/16813
-6814,16814,Van Ness Ave & Jackson St  , ,37.793829,-122.423131, ,https://SFMTA.com/16814
-6815,16815,Van Ness Ave & Mcallister St  , ,37.780008,-122.42019, ,https://SFMTA.com/16815
-6816,16816,Van Ness Ave & Mcallister St  , ,37.779687,-122.420324, ,https://SFMTA.com/16816
-6817,16817,Van Ness Ave & Market St  , ,37.775564,-122.419148, ,https://SFMTA.com/16817
 6819,16819,Van Ness Ave & North Point St , ,37.805063,-122.425351, ,https://SFMTA.com/16819
 6820,16820,Van Ness Ave & North Point St , ,37.805072,-122.42542, ,https://SFMTA.com/16820
-6821,16821,Van Ness Ave & Oak St  , ,37.775475,-122.419412, ,https://SFMTA.com/16821
-6823,16823,Van Ness Ave & O'Farrell St  , ,37.784817,-122.421128, ,https://SFMTA.com/16823
-6828,16828,Van Ness Ave & Sacramento St  , ,37.791349,-122.422593, ,https://SFMTA.com/16828
-6829,16829,Van Ness Ave & Sutter St  , ,37.78783,-122.42166, ,https://SFMTA.com/16829
-6830,16830,Van Ness Ave & Sutter St  , ,37.787396,-122.421838, ,https://SFMTA.com/16830
-6832,16832,Van Ness Ave & Union St  , ,37.798603,-122.424046, ,https://SFMTA.com/16832
-6833,16833,Van Ness Ave & Union St  , ,37.798487,-122.423932, ,https://SFMTA.com/16833
-6834,16834,Van Ness Ave & Vallejo St  , ,37.79641,-122.4237, ,https://SFMTA.com/16834
 6835,16835,Vicente St & 30th Ave  , ,37.738765,-122.487131, ,https://SFMTA.com/16835
 6836,16836,Vicente St & 47th Ave  , ,37.738079,-122.50531, ,https://SFMTA.com/16836
 6837,16837,Vicente St & West Portal Ave, ,37.73968,-122.46677, ,https://SFMTA.com/16837
@@ -2989,7 +2971,6 @@ stop_id,stop_code,stop_name,stop_desc,stop_lat,stop_lon,zone_id,stop_url
 7730,17730,Fulton St & 43rd Ave, ,37.771736,-122.503537, ,https://SFMTA.com/17730
 7732,17732,Folsom St & 20St, ,37.758762,-122.414789, ,https://SFMTA.com/17732
 7733,17733,Folsom St & 20th St, ,37.758985,-122.414617, ,https://SFMTA.com/17733
-7736,17736,Van Ness Ave & O'Farrell St , ,37.784907,-122.421334, ,https://SFMTA.com/17736
 7737,17737,Pacific Ave & Stockton St, ,37.796734,-122.408581, ,https://SFMTA.com/17737
 7742,17742,Morse St & Lowell St, ,37.711021,-122.446211, ,https://SFMTA.com/17742
 7744,17744,Cesar Chavez & Bartlett, ,37.748216,-122.419022, ,https://SFMTA.com/17744
@@ -3045,6 +3026,7 @@ stop_id,stop_code,stop_name,stop_desc,stop_lat,stop_lon,zone_id,stop_url
 7866,17866,16th St & Owen St , ,37.76665,-122.39253, ,https://SFMTA.com/17866
 7867,17867,Miguel ST & Laidley ST , ,37.737761,-122.428294, ,https://SFMTA.com/17867
 7868,17868,Miguel ST & Laidley ST , ,37.737752,-122.428248, ,https://SFMTA.com/17868
+7870,17870,Otis & McCoppin St, ,37.771603,-122.420365, ,https://SFMTA.com/17870
 7884,17884,Golden Gate Ave & Leavenworth St , ,37.781826,-122.413793, ,https://SFMTA.com/17884
 7885,17885,Quintra St & 43rd Ave , ,37.747584,-122.501583, ,https://SFMTA.com/17885
 7886,17886,Bayshore Blvd & Flower St , ,37.742377,-122.405609, ,https://SFMTA.com/17886
@@ -3088,7 +3070,7 @@ stop_id,stop_code,stop_name,stop_desc,stop_lat,stop_lon,zone_id,stop_url
 7996,17996,Irving St & 8th Ave , ,37.764038,-122.465428, ,https://SFMTA.com/17996
 7999,17999,9th Ave & Irving St , ,37.763307,-122.466344, ,https://SFMTA.com/17999
 8002,18002,Folsom St&Beale St N-MB/BI, ,37.788404,-122.393259, ,https://SFMTA.com/18002
-8003,18003,Oakdale Ave & Toland St , ,37.740966,-122.401474, ,https://SFMTA.com/18003
+8003,18003,Oakdale Ave & Toland St , ,37.740966,-122.401416, ,https://SFMTA.com/18003
 8012,18012,Lyon St & Union St , ,37.795724,-122.446965, ,https://SFMTA.com/18012
 8013,18013,Oakdale Ave & Toland St , ,37.740966,-122.401623, ,https://SFMTA.com/18013
 8014,18014,Ocean Ave & Geneva Ave , ,37.72312,-122.452132, ,https://SFMTA.com/18014
@@ -3142,3 +3124,21 @@ stop_id,stop_code,stop_name,stop_desc,stop_lat,stop_lon,zone_id,stop_url
 8078,18078,Santa Clara Ave & Saint Francis Blvd, ,37.734986,-122.466337, ,https://SFMTA.com/18078
 8080,18080,San Jose Ave & Geneva Ave, ,37.721024,-122.446509, ,https://SFMTA.com/18080
 8081,18081,Cortland & Bayshore ST., ,37.739638,-122.407088, ,https://SFMTA.com/18081
+8088,18088,South Van Ness Ave & Market St, ,37.7751,-122.41924, ,https://SFMTA.com/18088
+8089,18089,Van Ness Ave & McAllister St, ,37.780035,-122.420224, ,https://SFMTA.com/18089
+8090,18090,Van Ness Ave & Eddy St, ,37.782854,-122.420785, ,https://SFMTA.com/18090
+8091,18091,Van Ness Ave & Geary Blvd, ,37.785647,-122.421368, ,https://SFMTA.com/18091
+8092,18092,Van Ness Ave & Bush St, ,37.788449,-122.421918, ,https://SFMTA.com/18092
+8093,18093,Van Ness Ave & Clay St, ,37.792134,-122.422661, ,https://SFMTA.com/18093
+8094,18094,Van Ness Ave & Pacific St, ,37.794784,-122.423199, ,https://SFMTA.com/18094
+8095,18095,Van Ness Ave & Vallejo St, ,37.796801,-122.4236, ,https://SFMTA.com/18095
+8096,18096,Van Ness Ave & Union St, ,37.798514,-122.423955, ,https://SFMTA.com/18096
+8097,18097,Van Ness Ave & Union St, ,37.798576,-122.424035, ,https://SFMTA.com/18097
+8098,18098,Van Ness Ave & Vallejo St, ,37.79672,-122.423657, ,https://SFMTA.com/18098
+8099,18099,Van Ness Ave & Jackson St, ,37.793963,-122.423096, ,https://SFMTA.com/18099
+8100,18100,Van Ness Ave & Sacramento St, ,37.791313,-122.42257, ,https://SFMTA.com/18100
+8101,18101,Van Ness Ave & Sutter St, ,37.787574,-122.42178, ,https://SFMTA.com/18101
+8102,18102,Van Ness Ave & O'Farrell St, ,37.784782,-122.421208, ,https://SFMTA.com/18102
+8103,18103,Van Ness Ave & Eddy St, ,37.782917,-122.420865, ,https://SFMTA.com/18103
+8104,18104,Van Ness Ave & McAllister St, ,37.780097,-122.420304, ,https://SFMTA.com/18104
+8105,18105,Van Ness Ave & Market St, ,37.775172,-122.419309, ,https://SFMTA.com/18105
